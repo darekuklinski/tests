@@ -1,0 +1,4 @@
+windows-curses
+psutil
+pytest
+curses
