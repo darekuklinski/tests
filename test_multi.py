@@ -32,7 +32,6 @@ def find_test_files(test_dir, stdscr):
                 cwd=test_dir
             )
             all_tests.extend(collected.strip().splitlines())
-    stdscr.addstr(rows - 4, 15, str(all_tests))
     return all_tests
 
 def run_pytest(test_file, stdscr):
